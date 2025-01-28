@@ -6,8 +6,8 @@ function convertDateToArray() {
 
     const sum = filteredArray.reduce((accumulator, currentValue) => Number(accumulator) + Number(currentValue), 0);
 
-    console.log(filteredArray);
-    document.getElementById("output").textContent = `Mi número es: [${sum}]`;
+    console.log(sum);
+    document.getElementById("output").textContent = `Mi número es el: ${sum}`;
     
   } else {
     document.getElementById("output").textContent = "Por favor, selecciona una fecha.";
