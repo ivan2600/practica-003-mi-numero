@@ -1,7 +1,9 @@
 function convertDateToArray() {
-  const input = document.getElementById("dateInput").value; // Obtiene la fecha en formato "YYYY-MM-DD"
+  const input = document.getElementById("dateInput").value; 
+  
   if (input) {
-    const dateArray = input.split(""); // Divide la fecha en [YYYY, MM, DD] y convierte cada parte a número
+    const dateArray = input.split(""); 
+    
     const filteredArray = dateArray.filter(element => element !== "-");
 
     const sum = filteredArray.reduce((accumulator, currentValue) => Number(accumulator) + Number(currentValue), 0);
