@@ -18,10 +18,11 @@ h1 {
 }
 
 .container {
-  width: 80%;
+  width: 315px;
   margin: 20px auto;
   background-color: #fff;
   padding: 20px;
+  border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -30,6 +31,7 @@ button {
   color: #fff;
   border: none;
   padding: 10px 20px;
+  border-radius: 8px;
   cursor: pointer;
   font-size: 16px;
 }
@@ -39,7 +41,7 @@ button:hover {
 }
 
 input {
-  width: 50px;
+  width: 150px;
   padding: 10px;
   margin: 10px 0;
   box-sizing: border-box;
